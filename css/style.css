@@ -587,4 +587,10 @@ body {
     .video-ball{
         background-position: 60% 0%;
     }
+	 .who-we-are__image{
+        display: none;
+    }
+    .who-we-are__content{
+        padding-bottom: 15px;
+    }
 }
