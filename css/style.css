@@ -340,13 +340,8 @@ body {
        max-width: 970px;
     }
     .who-we-are__content::before{
-    content: "";
-    width: 201px;
-    height: 317px;
-    background: url("../img/circles.svg") no-repeat;
-    position: absolute;
     top: -96px;
-	right: -66px;
+	   right: -66px;
 }
 }
 /*==== 2nd breakpoint===*/
@@ -354,8 +349,11 @@ body {
     [class*="__container"] {
        max-width: 750px;
     }
-    .who-we-are__content::before{
-        display: none;
+     .who-we-are__content::before{
+        top: -68px;
+	right: -66px;
+	background-size: 90%;
+        height: 216px;
     }
     .who-we-are__content{
     margin: -82px 0 0 0;
@@ -382,6 +380,12 @@ body {
     .who-we-are__content{
         margin: -82px 0 0 0;
         padding: 60px 47px 0px 47px;
+    }
+	  .who-we-are__content::before{
+        top: -68px;
+	    right: -80px;
+        background-size: 90%;
+        height: 176px;
     }
     .who-we-are__content::after{
         display: none;
