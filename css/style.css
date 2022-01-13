@@ -579,15 +579,15 @@ body {
         left: -15%;
         top: -15%;
     }
-     .info__button__item{
+    .info__button__item{
         padding: 10px 20px;
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 6px;
     }
     .video-ball{
         background-position: 60% 0%;
     }
-	 .who-we-are__image{
+    .who-we-are__image{
         display: none;
     }
     .who-we-are__content{
